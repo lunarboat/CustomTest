@@ -14,6 +14,11 @@
 		3EA055961BE78BE400D410DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA055951BE78BE400D410DD /* Assets.xcassets */; };
 		3EA055991BE78BE400D410DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EA055971BE78BE400D410DD /* LaunchScreen.storyboard */; };
 		3EA055A41BE78BE400D410DD /* CustomTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA055A31BE78BE400D410DD /* CustomTestUITests.m */; };
+		3EA055B21BE78C0300D410DD /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA055AF1BE78C0300D410DD /* CustomViewController.m */; };
+		3EA055B31BE78C0300D410DD /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA055B11BE78C0300D410DD /* CustomTableView.m */; };
+		3EA055CE1BE7980800D410DD /* HTHorizontalSelectionListCustomViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA055C91BE7980800D410DD /* HTHorizontalSelectionListCustomViewCell.m */; };
+		3EA055CF1BE7980800D410DD /* HTHorizontalSelectionListLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA055CB1BE7980800D410DD /* HTHorizontalSelectionListLabelCell.m */; };
+		3EA055D01BE7980800D410DD /* HTHorizontalSelectionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA055CD1BE7980800D410DD /* HTHorizontalSelectionList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,17 @@
 		3EA0559F1BE78BE400D410DD /* CustomTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA055A31BE78BE400D410DD /* CustomTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTestUITests.m; sourceTree = "<group>"; };
 		3EA055A51BE78BE400D410DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EA055AE1BE78C0300D410DD /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		3EA055AF1BE78C0300D410DD /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		3EA055B01BE78C0300D410DD /* CustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableView.h; sourceTree = "<group>"; };
+		3EA055B11BE78C0300D410DD /* CustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableView.m; sourceTree = "<group>"; };
+		3EA055C71BE7980800D410DD /* HTHorizontalSelectionListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHorizontalSelectionListCell.h; sourceTree = "<group>"; };
+		3EA055C81BE7980800D410DD /* HTHorizontalSelectionListCustomViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHorizontalSelectionListCustomViewCell.h; sourceTree = "<group>"; };
+		3EA055C91BE7980800D410DD /* HTHorizontalSelectionListCustomViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHorizontalSelectionListCustomViewCell.m; sourceTree = "<group>"; };
+		3EA055CA1BE7980800D410DD /* HTHorizontalSelectionListLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHorizontalSelectionListLabelCell.h; sourceTree = "<group>"; };
+		3EA055CB1BE7980800D410DD /* HTHorizontalSelectionListLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHorizontalSelectionListLabelCell.m; sourceTree = "<group>"; };
+		3EA055CC1BE7980800D410DD /* HTHorizontalSelectionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHorizontalSelectionList.h; sourceTree = "<group>"; };
+		3EA055CD1BE7980800D410DD /* HTHorizontalSelectionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHorizontalSelectionList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +79,7 @@
 		3EA0557D1BE78BE400D410DD = {
 			isa = PBXGroup;
 			children = (
+				3EA055C51BE7980800D410DD /* HTHorizontalSelectionList */,
 				3EA055881BE78BE400D410DD /* CustomTest */,
 				3EA055A21BE78BE400D410DD /* CustomTestUITests */,
 				3EA055871BE78BE400D410DD /* Products */,
@@ -85,6 +102,10 @@
 				3EA0558D1BE78BE400D410DD /* AppDelegate.m */,
 				3EA0558F1BE78BE400D410DD /* ViewController.h */,
 				3EA055901BE78BE400D410DD /* ViewController.m */,
+				3EA055AE1BE78C0300D410DD /* CustomViewController.h */,
+				3EA055AF1BE78C0300D410DD /* CustomViewController.m */,
+				3EA055B01BE78C0300D410DD /* CustomTableView.h */,
+				3EA055B11BE78C0300D410DD /* CustomTableView.m */,
 				3EA055921BE78BE400D410DD /* Main.storyboard */,
 				3EA055951BE78BE400D410DD /* Assets.xcassets */,
 				3EA055971BE78BE400D410DD /* LaunchScreen.storyboard */,
@@ -109,6 +130,29 @@
 				3EA055A51BE78BE400D410DD /* Info.plist */,
 			);
 			path = CustomTestUITests;
+			sourceTree = "<group>";
+		};
+		3EA055C51BE7980800D410DD /* HTHorizontalSelectionList */ = {
+			isa = PBXGroup;
+			children = (
+				3EA055C61BE7980800D410DD /* Cells */,
+				3EA055CC1BE7980800D410DD /* HTHorizontalSelectionList.h */,
+				3EA055CD1BE7980800D410DD /* HTHorizontalSelectionList.m */,
+			);
+			name = HTHorizontalSelectionList;
+			path = CustomTest/HTHorizontalSelectionList;
+			sourceTree = "<group>";
+		};
+		3EA055C61BE7980800D410DD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3EA055C71BE7980800D410DD /* HTHorizontalSelectionListCell.h */,
+				3EA055C81BE7980800D410DD /* HTHorizontalSelectionListCustomViewCell.h */,
+				3EA055C91BE7980800D410DD /* HTHorizontalSelectionListCustomViewCell.m */,
+				3EA055CA1BE7980800D410DD /* HTHorizontalSelectionListLabelCell.h */,
+				3EA055CB1BE7980800D410DD /* HTHorizontalSelectionListLabelCell.m */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,8 +258,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EA055911BE78BE400D410DD /* ViewController.m in Sources */,
+				3EA055B31BE78C0300D410DD /* CustomTableView.m in Sources */,
+				3EA055CE1BE7980800D410DD /* HTHorizontalSelectionListCustomViewCell.m in Sources */,
 				3EA0558E1BE78BE400D410DD /* AppDelegate.m in Sources */,
+				3EA055CF1BE7980800D410DD /* HTHorizontalSelectionListLabelCell.m in Sources */,
 				3EA0558B1BE78BE400D410DD /* main.m in Sources */,
+				3EA055D01BE7980800D410DD /* HTHorizontalSelectionList.m in Sources */,
+				3EA055B21BE78C0300D410DD /* CustomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +451,7 @@
 				3EA055AA1BE78BE400D410DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EA055AB1BE78BE400D410DD /* Build configuration list for PBXNativeTarget "CustomTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +460,7 @@
 				3EA055AD1BE78BE400D410DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
